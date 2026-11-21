@@ -4,6 +4,12 @@
 .env.production
 .env.*.local
 
+
+# Uploaded media files
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+
 # ─── Dependencies ──────────────────────────────────────────────────────────────
 node_modules/
 **/node_modules/
